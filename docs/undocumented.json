@@ -79,7 +79,7 @@
     },
     {
       "file": "/Users/onevcat/Dropbox/github/Kingfisher/Sources/Extensions/ImageView+Kingfisher.swift",
-      "line": 303,
+      "line": 304,
       "symbol": "KingfisherWrapper.taskIdentifier",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
@@ -102,6 +102,13 @@
       "file": "/Users/onevcat/Dropbox/github/Kingfisher/Sources/Extensions/NSButton+Kingfisher.swift",
       "line": 320,
       "symbol": "KingfisherWrapper.alternateTaskIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/onevcat/Dropbox/github/Kingfisher/Sources/Extensions/NSTextAttachment+Kingfisher.swift",
+      "line": 240,
+      "symbol": "KingfisherWrapper.taskIdentifier",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
@@ -257,6 +264,20 @@
       "line": 667,
       "symbol": "Button",
       "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/onevcat/Dropbox/github/Kingfisher/Sources/General/ImageSource/AVAssetImageDataProvider.swift",
+      "line": 45,
+      "symbol": "AVAssetImageDataProvider.AVAssetImageDataProviderError.userCancelled",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/onevcat/Dropbox/github/Kingfisher/Sources/General/ImageSource/AVAssetImageDataProvider.swift",
+      "line": 46,
+      "symbol": "AVAssetImageDataProvider.AVAssetImageDataProviderError.invalidImage(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {

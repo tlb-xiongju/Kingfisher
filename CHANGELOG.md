@@ -2,6 +2,28 @@
 
 -----
 
+## [5.15.0 - Video and Text Attachment](https://github.com/onevcat/Kingfisher/releases/tag/5.15.0) (2020-08-17)
+
+#### Add
+* An `AVAssetImageDataProvider` to generate an image from a remote video asset at a specified time. All the processing gets benefits from current existing Kingfisher technologies, such as cache and image processors. [#1500](https://github.com/onevcat/Kingfisher/pull/1500)
+* New extension methods on `NSTextAttachment` to load an image from network for an attachment. [#1495](https://github.com/onevcat/Kingfisher/pull/1495)
+* A general clear cache method which combines clearing for memory cache and disk cache. [#1494](https://github.com/onevcat/Kingfisher/pull/1494)
+
+#### Fix
+* Now the sample app has a new look and supports dark mode, finally. [#1496](https://github.com/onevcat/Kingfisher/pull/1496)
+
+---
+
+## [5.14.1 - Summer Fix](https://github.com/onevcat/Kingfisher/releases/tag/5.14.1) (2020-07-06)
+
+#### Fix
+* Early return if no valid animator in an `AnimatedImageView`. This prevents a CGImage rendering issue displaying a static image. [#1428](https://github.com/onevcat/Kingfisher/issues/1428)
+* Enable Define Module setting to generate module map. So Kingfisher could be used in libraries imported to Objective-C projects. [#1451](https://github.com/onevcat/Kingfisher/pull/1451)
+* A fix to workaround on implicitly initializer of queue that might cause a crash. [#1449](https://github.com/onevcat/Kingfisher/issues/1449)
+* Improve the disk cache performance by avoiding unnecessary disk operations. [#1480](https://github.com/onevcat/Kingfisher/pull/1480)
+
+---
+
 ## [5.14.0 - Retry Strategy](https://github.com/onevcat/Kingfisher/releases/tag/5.14.0) (2020-05-13)
 
 #### Add
